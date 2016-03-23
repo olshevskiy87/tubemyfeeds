@@ -1,0 +1,23 @@
+{
+    "telegram": {
+        "bot": {
+            "name": "mybotname",
+            "username": "mybotname_bot",
+            "token": "qwertyuiop12345",
+            "send_feeds_limit": 10
+        },
+        "chat_ids": [12345, 67890]
+    },
+    "url": {
+        "youtube": "https://www.youtube.com/feeds/videos.xml?channel_id="
+    },
+    "db": {
+        "pg_conn": {
+            "host": "127.0.0.1",
+            "port": 5432,
+            "dbname": "postgres",
+            "user": "postgres",
+            "pass": ""
+        }
+    }
+}
